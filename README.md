@@ -7,8 +7,8 @@ This allows mod makers to quickly change the rarity of the monsters in their mod
 
 - Have the script in the same directory as a file that contains monster rarity data.
 - Run the script with the following command:
-  - `py ./enhanced_lethal_company_rarity_changer.py <path to rarity file> <path to output file> <rarity to change to>`
-    - You don't need to supply arguments. In this case you can use: `py ./enhanced_lethal_company_rarity_changer.py`
+  - `py ./rarity_changer.py <path to rarity file> <path to output file> <rarity to change to>`
+    - You don't need to supply arguments. In this case you can use: `py ./rarity_changer.py`
   - Below is an example of  what the rarity file should look like (taken from LethalEnhanced)
 ```json
 [
