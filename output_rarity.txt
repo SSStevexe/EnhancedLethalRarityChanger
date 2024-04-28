@@ -150,14 +150,14 @@
         "key": "Baboon hawk",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "Bunker Spider",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
@@ -171,70 +171,70 @@
         "key": "Docile Locust Bees",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "Earth Leviathan",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "ForestGiant",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "Lasso",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "Manticoil",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "MouthDog",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "Peeper",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "Red Locust Bees",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "RedWoodGiant",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "Siren Head",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
@@ -248,14 +248,14 @@
         "key": "Blobbugharloth",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "PufferHarloth",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
@@ -325,7 +325,7 @@
         "key": "Crystal Ray",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
@@ -339,14 +339,14 @@
         "key": "RadMech",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     },
     {
         "key": "Tulip Snake",
         "value": {
             "override": true,
-            "rarity": 0
+            "rarity": 100
         }
     }
 ]

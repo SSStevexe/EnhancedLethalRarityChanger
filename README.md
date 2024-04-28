@@ -1,15 +1,22 @@
 # Enhanced Lethal Company Rarity Changer
 
 ## What is this?
-This allows mod makers to quickly change the rarity of the monsters in their mod packs without having to manually change the rarity of each monster.
+This allows mod makers to quickly change the rarity of the monsters in their mod packs without having to manually change the rarity of each monster
+
+- Supports negative numbers to decrease rarity
+- Will optionally not change rarities that are 0.
+- If negative numbers are used, it will not go below 0
 
 ## How to use?
 
 - Have the script in the same directory as a file that contains monster rarity data.
 - Run the script with the following command:
-  - `py ./rarity_changer.py <path to rarity file> <path to output file> <rarity to change to>`
-    - You don't need to supply arguments. In this case you can use: `py ./rarity_changer.py`
-  - Below is an example of  what the rarity file should look like (taken from LethalEnhanced)
+  - `py ./rarity_changer.py` this will prompt you for further instructions
+  - `py ./rarity_changer.py --modify_zero` This will allow zeros to be changed as well.
+  - `py ./rarity_changer.py --modify_zero --change_amount 100` This will change all rarities to 100
+  - `py ./rarity_changer.py --change_amount 100 "` This will change rarities to 100 but **NOT** affect rarities that are 0 in file specified
+
+## Below is an example of  what the rarity file should look like (taken from LethalEnhanced)
 ```json
 [
   {
@@ -52,7 +59,7 @@ This allows mod makers to quickly change the rarity of the monsters in their mod
 
 ```
 
-### Sample output when given change rarity of 100
+## Sample output when given change rarity of 100
 
 ```json
 [
