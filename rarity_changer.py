@@ -48,7 +48,7 @@ def write_to_file(arg_output_file=file_output_monster_rarity):
 def parse_args():
     import argparse
     parser = argparse.ArgumentParser(description='Change the rarity of monsters in a JSON file')
-    parser.add_argument('--file', default=file_with_monster_rarity, nargs="?", help='The file containing the monster data')
+    parser.add_argument('--input_file', default=file_with_monster_rarity, nargs="?", help='The file containing the monster data')
     parser.add_argument('--output_file', default=file_output_monster_rarity, nargs="?", help='The file to output the data to')
     parser.add_argument('--change_amount', default=0, type=int, nargs="?", help='The amount to change the rarity by')
     parser.add_argument('--modify_zero', action='store_true', help='Whether to affect monsters with rarity 0. Will not go below 0.')

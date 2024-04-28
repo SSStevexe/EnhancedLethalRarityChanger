@@ -9,13 +9,14 @@ This allows mod makers to quickly change the rarity of the monsters in their mod
 
 ## How to use?
 
-- Have the script in the same directory as a file that contains monster rarity data.
-- Run the script with the following command:
+- Have the script in the same directory as a file that contains monster rarity data. Sample rarity data file is either by default `sample_rarity.txt` or supplied through an argument `--input_file`
+- Run the script with the following commands:
   - `py ./rarity_changer.py` this will prompt you for further instructions
   - `py ./rarity_changer.py --modify_zero` This will allow zeros to be changed as well.
   - `py ./rarity_changer.py --modify_zero --change_amount 100` This will change all rarities to 100
   - `py ./rarity_changer.py --change_amount 100 "` This will change rarities to 100 but **NOT** affect rarities that are 0 in file specified
-
+- Other commands 
+  - `py ./rarity_changer.py --input_file "path/to/file.txt"` This will use the file specified instead of the default file
 ## Below is an example of  what the rarity file should look like (taken from LethalEnhanced)
 ```json
 [
