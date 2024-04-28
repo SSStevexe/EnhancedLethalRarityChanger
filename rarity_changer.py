@@ -58,7 +58,7 @@ def parse_args():
 
 if __name__ == '__main__':
     args = parse_args()
-    file_with_monster_rarity = args.file
+    file_with_monster_rarity = args.input_file
     file_output_monster_rarity = args.output_file
     change_amount = args.change_amount
     modify_zero = args.modify_zero
