@@ -1,4 +1,4 @@
-# Enhanced Lethal Company Rarity Changer
+# Lethal Enhanced Company Rarity Changer
 
 ## What is this?
 This allows mod makers to quickly change the rarity of the monsters in their mod packs without having to manually change the rarity of each monster
